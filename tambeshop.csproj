@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DB97DAE-6D37-4234-B79C-FA51DB64B83F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tambeshop</RootNamespace>
+    <AssemblyName>tambeshop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddtoCart.aspx" />
+    <Content Include="Admin panel\Css\adminpanelhome.css" />
+    <Content Include="Admin panel\Css\bangles.css" />
+    <Content Include="Admin panel\Images\adminpanelhomebg.jpg" />
+    <Content Include="Admin panel\Images\bgadmin.jpg" />
+    <Content Include="Admin panel\Images\VBTLOGO1.png" />
+    <Content Include="Admin panel\Images\welcomepagebg.jpg" />
+    <Content Include="advideo.mp4" />
+    <Content Include="Bangles.aspx" />
+    <Content Include="Bootstrap4\bootstrap.css" />
+    <Content Include="Bootstrap4\bootstrap.js" />
+    <Content Include="Bootstrap4\bootstrap.min.css" />
+    <Content Include="Bootstrap4\bootstrap.min.js" />
+    <Content Include="Bootstrap4\jquery.min.js" />
+    <Content Include="Bootstrap4\popper.min.js" />
+    <Content Include="Bracelet.aspx" />
+    <Content Include="Buying.aspx" />
+    <Content Include="Corotry.aspx" />
+    <Content Include="Css2.1\AddtoCart.css" />
+    <Content Include="Css2.1\placeorder.css" />
+    <Content Include="Css2.1\Viewdetails.css" />
+    <Content Include="Css2.1\W_Bajubandh.css" />
+    <Content Include="Css2.1\W_Bangles.css" />
+    <Content Include="Css2.1\Bracelet.css" />
+    <Content Include="Css2.1\Home.css" />
+    <Content Include="Css2.1\master.css" />
+    <Content Include="Css2.1\Men_Chain.css" />
+    <Content Include="Css2.1\Men_Rings.css" />
+    <Content Include="Css2.1\Men_pendant.css" />
+    <Content Include="Css2.1\registration.css" />
+    <Content Include="Css2.1\W_Chain.css" />
+    <Content Include="Css2.1\W_earrings.css" />
+    <Content Include="Css2.1\W_mangalsutra.css" />
+    <Content Include="Css2.1\W_necklace.css" />
+    <Content Include="Css2.1\W_nosepin.css" />
+    <Content Include="Css2.1\W_pendant.css" />
+    <Content Include="Css2.1\W_Rings.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\addtocart.jpg" />
+    <Content Include="Images\Corosuel\coro1.jpg" />
+    <Content Include="Images\Corosuel\corosuel.jpg" />
+    <Content Include="Images\Corosuel\corosuel1.jpg" />
+    <Content Include="Images\Corosuel\corosuel2.jpg" />
+    <Content Include="Images\Corosuel\corosuel3.jpg" />
+    <Content Include="Images\Corosuel\corosuel4.jpg" />
+    <Content Include="Images\Corosuel\corosuel5.jpg" />
+    <Content Include="Images\Corosuel\goldcoinbanner.jpg" />
+    <Content Include="Images\Corosuel\offer1.jpg" />
+    <Content Include="Images\Corosuel\offer2.jpg" />
+    <Content Include="Images\Corosuel\offer3.jpg" />
+    <Content Include="Images\Corosuel\offer4.jpg" />
+    <Content Include="Images\master\goldcoinbanner.jpg" />
+    <Content Include="Images\W_bajubandh\b1.jpg" />
+    <Content Include="Images\W_bajubandh\b10.jpg" />
+    <Content Include="Images\W_bajubandh\b11.jpg" />
+    <Content Include="Images\W_bajubandh\b12.jpg" />
+    <Content Include="Images\W_bajubandh\b13.jpg" />
+    <Content Include="Images\W_bajubandh\b14.jpg" />
+    <Content Include="Images\W_bajubandh\b15.jpg" />
+    <Content Include="Images\W_bajubandh\b2.jpg" />
+    <Content Include="Images\W_bajubandh\b3.jpg" />
+    <Content Include="Images\W_bajubandh\b4.jpg" />
+    <Content Include="Images\W_bajubandh\b5.jpg" />
+    <Content Include="Images\W_bajubandh\b6.jpg" />
+    <Content Include="Images\W_bajubandh\b7.jpg" />
+    <Content Include="Images\W_bajubandh\b8.jpg" />
+    <Content Include="Images\W_bajubandh\b9.jpg" />
+    <Content Include="Images\bangles\b1.jpg" />
+    <Content Include="Images\bangles\b10.jpg" />
+    <Content Include="Images\bangles\b11.jpg" />
+    <Content Include="Images\bangles\b12.jpg" />
+    <Content Include="Images\bangles\b13.jpg" />
+    <Content Include="Images\bangles\b14.jpg" />
+    <Content Include="Images\bangles\b15.jpg" />
+    <Content Include="Images\bangles\b2.jpg" />
+    <Content Include="Images\bangles\b3.jpg" />
+    <Content Include="Images\bangles\b4.jpg" />
+    <Content Include="Images\bangles\b5.jpg" />
+    <Content Include="Images\bangles\b6.jpg" />
+    <Content Include="Images\bangles\b7.jpg" />
+    <Content Include="Images\bangles\b8.jpg" />
+    <Content Include="Images\bangles\b9.jpg" />
+    <Content Include="Images\Banners\Banner_Main.jpg" />
+    <Content Include="Images\Banners\Banner_Main1.jpg" />
+    <Content Include="Images\Banners\Banner_Main2.jpg" />
+    <Content Include="Images\Banners\w_bangles.png" />
+    <Content Include="Images\Banners\collection-bhagwanidols.jpg" />
+    <Content Include="Images\Banners\M_Button_Banner.jpg" />
+    <Content Include="Images\Banners\M_Pendant_Banner.jpg" />
+    <Content Include="Images\Banners\poojasahitya.jpg" />
+    <Content Include="Images\Banners\pujabanner.png" />
+    <Content Include="Images\Banners\silveranklets.jpg" />
+    <Content Include="Images\Banners\w_Bajubandha.jpg" />
+    <Content Include="Images\Banners\w_bangle.png" />
+    <Content Include="Images\Banners\w_chain.png" />
+    <Content Include="Images\Banners\w_earrings.png" />
+    <Content Include="Images\Banners\w_mangalsutra.png" />
+    <Content Include="Images\Banners\w_necklace.png" />
+    <Content Include="Images\Banners\w_nosepin.jpg" />
+    <Content Include="Images\Banners\w_pendant.png" />
+    <Content Include="Images\Banners\w_ring.png" />
+    <Content Include="Images\bis-916 hallmark.jpg" />
+    <Content Include="Images\Bracelet\b1.jpg" />
+    <Content Include="Images\Bracelet\b10.jpg" />
+    <Content Include="Images\Bracelet\b11.jpg" />
+    <Content Include="Images\Bracelet\b12.jpg" />
+    <Content Include="Images\Bracelet\b13.jpg" />
+    <Content Include="Images\Bracelet\b2.jpg" />
+    <Content Include="Images\Bracelet\b3.jpg" />
+    <Content Include="Images\Bracelet\b4.jpg" />
+    <Content Include="Images\Bracelet\b5.jpg" />
+    <Content Include="Images\Bracelet\b6.jpg" />
+    <Content Include="Images\Bracelet\b7.jpg" />
+    <Content Include="Images\Bracelet\b8.jpg" />
+    <Content Include="Images\Bracelet\b9.jpg" />
+    <Content Include="Images\Banners\M_Bracelet_Banner.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia1.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia2.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia3.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia4.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia5.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia6.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia7.jpg" />
+    <Content Include="Images\BrideOfIndia\brideofindia8.jpg" />
+    <Content Include="Images\certifieddiamond.png" />
+    <Content Include="Images\chain\1.jpg" />
+    <Content Include="Images\chain\10.jpg" />
+    <Content Include="Images\chain\2.jpg" />
+    <Content Include="Images\chain\3.jpg" />
+    <Content Include="Images\chain\4.jpg" />
+    <Content Include="Images\chain\5.jpg" />
+    <Content Include="Images\chain\6.jpg" />
+    <Content Include="Images\chain\7.jpg" />
+    <Content Include="Images\chain\8.jpg" />
+    <Content Include="Images\chain\9.jpg" />
+    <Content Include="Images\Banners\M_Chain_Banner.jpg" />
+    <Content Include="Images\detialbanner.png" />
+    <Content Include="Images\Home\ad1.png" />
+    <Content Include="Images\Home\ad10.jpg" />
+    <Content Include="Images\Home\ad11.png" />
+    <Content Include="Images\Home\ad12.jpg" />
+    <Content Include="Images\Home\ad13.jpg" />
+    <Content Include="Images\Home\ad14.png" />
+    <Content Include="Images\Home\ad15.png" />
+    <Content Include="Images\Home\ad17.png" />
+    <Content Include="Images\Home\ad2.png" />
+    <Content Include="Images\Home\ad3.png" />
+    <Content Include="Images\Home\ad5.png" />
+    <Content Include="Images\Home\ad6.png" />
+    <Content Include="Images\Home\ad7.png" />
+    <Content Include="Images\Home\ad8.png" />
+    <Content Include="Images\Home\ad9.png" />
+    <Content Include="Images\Home\logoofbangles.jpg" />
+    <Content Include="Images\Home\logoofbridesofindia.png" />
+    <Content Include="Images\Home\logoofchain.jpg" />
+    <Content Include="Images\Home\logoofearrings.jpg" />
+    <Content Include="Images\Home\logoofnecklace.jpg" />
+    <Content Include="Images\Home\logoofpendant.jpg" />
+    <Content Include="Images\Home\LogoofRing.jpg" />
+    <Content Include="Images\likebuttonimg.jpg" />
+    <Content Include="Images\master\adminpanelhomebg.jpg" />
+    <Content Include="Images\master\gold-coinbanner.jpg" />
+    <Content Include="Images\master\kidsingold2.jpg" />
+    <Content Include="Images\master\logo.png" />
+    <Content Include="Images\master\meningold.jpg" />
+    <Content Include="Images\master\silverbanner2.jpg" />
+    <Content Include="Images\master\SLIVER.jpg" />
+    <Content Include="Images\master\womeningold1.jpg" />
+    <Content Include="Images\Men_Rings\10.jpg" />
+    <Content Include="Images\Men_Rings\11.jpg" />
+    <Content Include="Images\Men_Rings\12.jpg" />
+    <Content Include="Images\Men_Rings\13.jpg" />
+    <Content Include="Images\Men_Rings\14.jpg" />
+    <Content Include="Images\Men_Rings\15.jpg" />
+    <Content Include="Images\Men_Rings\16.jpg" />
+    <Content Include="Images\Men_Rings\17.jpg" />
+    <Content Include="Images\Men_Rings\2.jpg" />
+    <Content Include="Images\Men_Rings\3.jpg" />
+    <Content Include="Images\Men_Rings\4.jpg" />
+    <Content Include="Images\Men_Rings\5.jpg" />
+    <Content Include="Images\Men_Rings\6.jpg" />
+    <Content Include="Images\Men_Rings\7.jpg" />
+    <Content Include="Images\Men_Rings\8.jpg" />
+    <Content Include="Images\Men_Rings\9.jpg" />
+    <Content Include="Images\Banners\M_Ring_Banner.jpg" />
+    <Content Include="Images\pendant\p1.jpg" />
+    <Content Include="Images\pendant\p10.jpg" />
+    <Content Include="Images\pendant\p11.jpg" />
+    <Content Include="Images\pendant\p12.jpg" />
+    <Content Include="Images\pendant\p13.jpg" />
+    <Content Include="Images\pendant\p14.jpg" />
+    <Content Include="Images\pendant\p15.jpg" />
+    <Content Include="Images\pendant\p2.jpg" />
+    <Content Include="Images\pendant\p3.jpg" />
+    <Content Include="Images\pendant\p4.jpg" />
+    <Content Include="Images\pendant\p5.jpg" />
+    <Content Include="Images\pendant\p6.jpg" />
+    <Content Include="Images\pendant\p7.jpg" />
+    <Content Include="Images\pendant\p8.jpg" />
+    <Content Include="Images\pendant\p9.jpg" />
+    <Content Include="Images\W_chain\c1.jpg" />
+    <Content Include="Images\W_chain\c10.jpg" />
+    <Content Include="Images\W_chain\c11.jpg" />
+    <Content Include="Images\W_chain\c12.jpg" />
+    <Content Include="Images\W_chain\c13.jpg" />
+    <Content Include="Images\W_chain\c14.jpg" />
+    <Content Include="Images\W_chain\c15.jpg" />
+    <Content Include="Images\W_chain\c2.jpg" />
+    <Content Include="Images\W_chain\c3.jpg" />
+    <Content Include="Images\W_chain\c4.jpg" />
+    <Content Include="Images\W_chain\c5.jpg" />
+    <Content Include="Images\W_chain\c6.jpg" />
+    <Content Include="Images\W_chain\c7.jpg" />
+    <Content Include="Images\W_chain\c8.jpg" />
+    <Content Include="Images\W_chain\c9.jpg" />
+    <Content Include="Images\W_earring\e1.jpg" />
+    <Content Include="Images\W_earring\e10.jpg" />
+    <Content Include="Images\W_earring\e11.jpg" />
+    <Content Include="Images\W_earring\e12.jpg" />
+    <Content Include="Images\W_earring\e13.jpg" />
+    <Content Include="Images\W_earring\e14.jpg" />
+    <Content Include="Images\W_earring\e15.jpg" />
+    <Content Include="Images\W_earring\e2.jpg" />
+    <Content Include="Images\W_earring\e3.jpg" />
+    <Content Include="Images\W_earring\e4.jpg" />
+    <Content Include="Images\W_earring\e5.jpg" />
+    <Content Include="Images\W_earring\e6.jpg" />
+    <Content Include="Images\W_earring\e7.jpg" />
+    <Content Include="Images\W_earring\e8.jpg" />
+    <Content Include="Images\W_earring\e9.jpg" />
+    <Content Include="Images\W_necklace\n1.jpg" />
+    <Content Include="Images\W_necklace\n10.jpg" />
+    <Content Include="Images\W_necklace\n11.jpg" />
+    <Content Include="Images\W_necklace\N12.jpg" />
+    <Content Include="Images\W_necklace\n13.jpg" />
+    <Content Include="Images\W_necklace\n14.jpg" />
+    <Content Include="Images\W_necklace\n15.jpg" />
+    <Content Include="Images\W_necklace\n2.jpg" />
+    <Content Include="Images\W_necklace\n3.jpg" />
+    <Content Include="Images\W_necklace\n4.jpg" />
+    <Content Include="Images\W_necklace\n5.jpg" />
+    <Content Include="Images\W_necklace\n6.jpg" />
+    <Content Include="Images\W_necklace\n7.jpg" />
+    <Content Include="Images\W_necklace\n8.jpg" />
+    <Content Include="Images\W_necklace\n9.jpg" />
+    <Content Include="Images\W_pendant\p1.jpg" />
+    <Content Include="Images\W_pendant\p10.jpg" />
+    <Content Include="Images\W_pendant\p11.jpg" />
+    <Content Include="Images\W_pendant\p12.jpg" />
+    <Content Include="Images\W_pendant\p13.jpg" />
+    <Content Include="Images\W_pendant\p14.jpg" />
+    <Content Include="Images\W_pendant\p15.jpg" />
+    <Content Include="Images\W_pendant\p2.jpg" />
+    <Content Include="Images\W_pendant\p3.jpg" />
+    <Content Include="Images\W_pendant\p4.jpg" />
+    <Content Include="Images\W_pendant\p5.jpg" />
+    <Content Include="Images\W_pendant\p6.jpg" />
+    <Content Include="Images\W_pendant\p7.jpg" />
+    <Content Include="Images\W_pendant\p8.jpg" />
+    <Content Include="Images\W_pendant\p9.jpg" />
+    <Content Include="Images\W_rings\r1.jpg" />
+    <Content Include="Images\W_rings\r10.jpg" />
+    <Content Include="Images\W_rings\r11.jpg" />
+    <Content Include="Images\W_rings\r12.jpg" />
+    <Content Include="Images\W_rings\r13.jpg" />
+    <Content Include="Images\W_rings\r14.jpg" />
+    <Content Include="Images\W_rings\r15.jpg" />
+    <Content Include="Images\W_rings\r2.jpg" />
+    <Content Include="Images\W_rings\r3.jpg" />
+    <Content Include="Images\W_rings\r4.jpg" />
+    <Content Include="Images\W_rings\r5.jpg" />
+    <Content Include="Images\W_rings\r6.jpg" />
+    <Content Include="Images\W_rings\r7.jpg" />
+    <Content Include="Images\W_rings\r8.jpg" />
+    <Content Include="Images\W_rings\r9.jpg" />
+    <Content Include="Men_Chains.aspx" />
+    <Content Include="Men_pendant.aspx" />
+    <Content Include="Men_Rings.aspx" />
+    <Content Include="PlaceOrder.aspx" />
+    <Content Include="PlaceSuccessfully.aspx" />
+    <Content Include="ProductDetail.aspx" />
+    <Content Include="Resgisterform.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="W_Bajuband.aspx" />
+    <Content Include="W_chian.aspx" />
+    <Content Include="W_earrings.aspx" />
+    <Content Include="W_mangalsutra.aspx" />
+    <Content Include="W_necklace.aspx" />
+    <Content Include="W_nosepin.aspx" />
+    <Content Include="W_pendant.aspx" />
+    <Content Include="W_Rings.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddtoCart.aspx.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.designer.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin panel\Adminpanel.Master.cs">
+      <DependentUpon>Adminpanel.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin panel\Adminpanel.Master.designer.cs">
+      <DependentUpon>Adminpanel.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Bangles.aspx.cs">
+      <DependentUpon>Bangles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bangles.aspx.designer.cs">
+      <DependentUpon>Bangles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bracelet.aspx.cs">
+      <DependentUpon>Bracelet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bracelet.aspx.designer.cs">
+      <DependentUpon>Bracelet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Buying.aspx.cs">
+      <DependentUpon>Buying.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buying.aspx.designer.cs">
+      <DependentUpon>Buying.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corotry.aspx.cs">
+      <DependentUpon>Corotry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corotry.aspx.designer.cs">
+      <DependentUpon>Corotry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master.Master.cs">
+      <DependentUpon>master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master.Master.designer.cs">
+      <DependentUpon>master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Men_Chains.aspx.cs">
+      <DependentUpon>Men_Chains.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Men_Chains.aspx.designer.cs">
+      <DependentUpon>Men_Chains.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Men_pendant.aspx.cs">
+      <DependentUpon>Men_pendant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Men_pendant.aspx.designer.cs">
+      <DependentUpon>Men_pendant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Men_Rings.aspx.cs">
+      <DependentUpon>Men_Rings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Men_Rings.aspx.designer.cs">
+      <DependentUpon>Men_Rings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceOrder.aspx.designer.cs">
+      <DependentUpon>PlaceOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaceSuccessfully.aspx.cs">
+      <DependentUpon>PlaceSuccessfully.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaceSuccessfully.aspx.designer.cs">
+      <DependentUpon>PlaceSuccessfully.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductDetail.aspx.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetail.aspx.designer.cs">
+      <DependentUpon>ProductDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resgisterform.aspx.cs">
+      <DependentUpon>Resgisterform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resgisterform.aspx.designer.cs">
+      <DependentUpon>Resgisterform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_Bajuband.aspx.cs">
+      <DependentUpon>W_Bajuband.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_Bajuband.aspx.designer.cs">
+      <DependentUpon>W_Bajuband.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_chian.aspx.cs">
+      <DependentUpon>W_chian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_chian.aspx.designer.cs">
+      <DependentUpon>W_chian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_earrings.aspx.cs">
+      <DependentUpon>W_earrings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_earrings.aspx.designer.cs">
+      <DependentUpon>W_earrings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_mangalsutra.aspx.cs">
+      <DependentUpon>W_mangalsutra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_mangalsutra.aspx.designer.cs">
+      <DependentUpon>W_mangalsutra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_necklace.aspx.cs">
+      <DependentUpon>W_necklace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_necklace.aspx.designer.cs">
+      <DependentUpon>W_necklace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_nosepin.aspx.cs">
+      <DependentUpon>W_nosepin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_nosepin.aspx.designer.cs">
+      <DependentUpon>W_nosepin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_pendant.aspx.cs">
+      <DependentUpon>W_pendant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_pendant.aspx.designer.cs">
+      <DependentUpon>W_pendant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="W_Rings.aspx.cs">
+      <DependentUpon>W_Rings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="W_Rings.aspx.designer.cs">
+      <DependentUpon>W_Rings.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin panel\Adminpanel.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Images\W_mangalsutra\" />
+    <Folder Include="Images\W_nosepin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1827</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
